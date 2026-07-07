@@ -1,0 +1,100 @@
+# =========================
+# Compilação CMake
+# =========================
+
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+
+# =========================
+# Executáveis gerados
+# =========================
+
+*.exe
+*.out
+*.app
+
+
+# =========================
+# Arquivos de compilação C++
+# =========================
+
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+
+
+# =========================
+# Ninja
+# =========================
+
+.ninja_deps
+.ninja_log
+
+
+# =========================
+# Visual Studio / VS Code
+# =========================
+
+.vscode/
+.idea/
+
+*.suo
+*.user
+*.vcxproj
+*.vcxproj.filters
+
+
+# =========================
+# Sistema operacional
+# =========================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*.swp
+*~
+.directory
+
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+
+# =========================
+# Arquivos temporários
+# =========================
+
+*.tmp
+*.temp
+
+
+# =========================
+# Dados locais
+# =========================
+
+.env
+config.local
+
+
+# =========================
+# Testes e builds locais
+# =========================
+
+bin/
+obj/
+dist/
+release/
+debug/
